@@ -1,3 +1,8 @@
+---
+layout: post
+title: Machine Learning Intro
+---
+
 # Introduction to Machine Learning 
 
 
