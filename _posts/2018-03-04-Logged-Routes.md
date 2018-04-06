@@ -19,5 +19,6 @@ The python script found here, iterates through each route performed on the given
 
 ## Answer
 
+After merging the outputs of a month's worth of routes,it was possible to determine which drivers were logging events as they occured most frequently. 
 
 
