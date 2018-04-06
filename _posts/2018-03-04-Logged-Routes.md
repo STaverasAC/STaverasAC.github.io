@@ -13,7 +13,7 @@ The Office of Pupil Transportation is developing a mobile application to inform 
 |---|---|
 | <ul><li>Student location feature class</li><li>School location feature class</li><li>GPS data for 1 day</li></ul>|CSV with fields<ul><li>Driver</li><li>Route</li><li>PCT of logged events</li></ul>|
 
-The python script found here, iterates through each route performed on the given day and creates a subset of the schools, students and gps points pertaining to that route. Buffers are created at 275 ft around students and 350 around schools. These distances were previously agreed on by analysts to determine whether a bus has arrived at a particular stop. If a GPS point logged by the driver as an "Arrival" point falls within a buffer, that stop is considered to be logged correctly. For each route, the percentage of correctly logged stops is calculated.
+The python script found [here](https://github.com/STaverasDev/GPSAnalysis/blob/master/LoggedStops.py), iterates through each route performed on the given day and creates a subset of the schools, students and gps points pertaining to that route. Buffers are created at 275 ft around students and 350 around schools. These distances were previously agreed on by analysts to determine whether a bus has arrived at a particular stop. If a GPS point logged by the driver as an "Arrival" point falls within a buffer, that stop is considered to be logged correctly. For each route, the percentage of correctly logged stops is calculated.
 
 ![Image of Map](/images/FindGoodRoutesSmall.png)
 
