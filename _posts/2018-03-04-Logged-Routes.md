@@ -24,10 +24,7 @@ CSV with following fields:
 - Route
 - PCT of logged events
 
-<img align="right" src="http://www.fillmurray.com/100/100">
-
 ![Image of Map](/images/FindGoodRoutesSmall.png)
-
 
 ## Answer
 
