@@ -9,7 +9,7 @@ The Office of Pupil Transportation is developing a mobile application to inform 
 
 ## Solution: Script found [here](https://github.com/STaverasDev/GPSAnalysis/blob/master/LoggedStops.py).
 
-Given that ridership data and GPS data exists as separate entities unaware of one another, I developed a script to determine if arrival events were being logged at the locations of student and school stops.The script iterates through each route performed on the given day and creates a subset of the schools, students andd gps points pertaining to that route. Buffers are created at 275 ft around students and 350 around schools.If a GPS point logged by the driver as an "Arrival" point falls within a buffer, that stop is considered to be logged correctly. For each route, the percentage of correctly logged stops is calculated.
+I developed a script to determine if arrival events were being logged at the locations of student and school stops.The script iterates through each route performed on the given day and creates a subset of the schools, students andd gps points pertaining to that route. Buffers are created at 275 ft around students and 350 around schools.If a GPS point logged by the driver as an "Arrival" point falls within a buffer, that stop is considered to be logged correctly.For each route, the percentage of correctly logged stops is calculated.
 
 #### Inputs
 
